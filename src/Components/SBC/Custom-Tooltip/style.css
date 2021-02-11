@@ -1,0 +1,24 @@
+.custom-tooltip {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    overflow: hidden;
+    pointer-events: none;
+    transition: opacity 1s;
+    background-color: white;
+    color: black;
+  }
+  
+  .custom-tooltip.ag-tooltip-hiding {
+    opacity: 0;
+  }
+  
+  .custom-tooltip p {
+    margin: 5px;
+    white-space: nowrap;
+  }
+  
+  .custom-tooltip p:first-of-type {
+    font-weight: bold;
+  }

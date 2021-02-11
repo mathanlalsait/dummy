@@ -1,0 +1,7 @@
+{
+    "/api/": "/",
+    "/api/dashboards/sbc": "/sbc-dashboard",
+    "/api/dashboards/email": "/email-dashboard",
+    "/api/dashboards/email-scheduler": "/email-scheduler",
+    "/api/dashboards/email-disableperiod": "/email-disableperiod"
+  }

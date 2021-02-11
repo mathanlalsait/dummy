@@ -1,0 +1,193 @@
+@import "~bootstrap/scss/bootstrap";
+@import 'variables.scss';
+
+.footer-container {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    height: 100%;
+    background: #707070;
+    .block {
+        flex: 1;
+        align-items: center;
+        justify-content: flex-end;
+        display: flex;
+        .key-items {
+            padding: .1rem .5rem;
+            margin: 0 .25rem;
+            text-align: center;
+            color: $color-1;
+            .key-item {
+                margin: 0 0.25rem;
+                padding: .1rem .5rem;
+            }
+        }
+    }
+    .refresh-block {
+        margin-right: 3rem;
+    }
+    
+}
+  .keycontents {
+    color: White;
+    font-weight: normal;
+    padding: 0.5em 1em;
+    background-color: #646464;
+    min-height: 1.2em;
+  }
+
+  .stillage{
+    padding: 8px 0 2px;
+    border-radius: 2px;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+
+// re-usable style 
+.slider-block {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 15px 21px #00000029;
+    padding: .5rem
+}
+
+.content {
+    display: flex;
+    .grid {
+        width: 92%;
+        float: left;
+    }
+    .slider-right {
+        padding: 1rem;
+        float: left;
+        width: 8%;
+        display: flex;
+        flex-direction: column;
+        .error-block {
+            @extend .slider-block;
+            flex: 1;
+            margin-top: 1rem;
+        }
+    }
+    .footer {
+        height: 3rem;
+        background-color: #646464;
+        color: #fff;
+    }
+}
+
+.ag-theme-bootstrap {
+    font-size: 1.2rem !important;
+    font-family: 'delivery-bold' !important;
+    .ag-row {
+        border-bottom: 1px solid #707070;
+    }
+    .ag-ltr {
+        .ag-cell {
+            border-right: 1px solid #e2e2e2 !important;
+        }
+    }
+    .ag-header {
+        min-height: 4rem;
+        .ag-header-cell {
+            display: inline-flex;
+            align-items: center;
+            position: absolute;
+            height: 100%;
+            border-right: 1px solid #424242;
+            border-top: 1px solid #424242;
+            color: #fff;
+        }
+        .ag-header-container {
+            background-color: #000000;
+        }
+        .ag-header-group-text {
+            margin: auto;
+        }
+    
+        .ag-header-row {
+            overflow: inherit !important;
+        }
+      
+    }
+
+}
+
+
+
+.unplanned {
+    color: $color-8;
+    background-color: $color-2;
+}
+
+.planned {
+    background-color: $color-3;
+}
+
+.picking {
+    background-color: $color-9;
+}
+
+.picked {
+    background-color: $color-5;
+}
+
+.staged {
+    background-color: $color-4;
+}
+
+.loaded {
+    background-color: $color-6;
+}
+
+.dispatched {
+    background-color:  $color-7;
+}
+
+.cell-span {
+    background-color:  blue;
+}
+.pickingColumn {
+    background-color: $color-4;
+}
+
+.stagedColumn {
+    background-color: $color-2;
+}
+
+.shipped {
+    color: $color-1;
+    background-color: $color-5;
+  }
+  
+  .onsite{
+    color: $color-1;
+    background-color: $color-7;
+    
+  }
+  
+  .missing{
+    color: $color-1;
+    background-color: $color-8;
+  }
+  
+  .atsupplier{
+    color: $color-1;
+    background-color: $color-3;
+  }
+  
+  .notrequired{
+    color: $color-1;
+    background-color: $color-8;
+  }
+  
+  .error{
+    background-color: $color-10;
+  }
+
+  .NotRequired{
+    background-color: $color-11;
+  }

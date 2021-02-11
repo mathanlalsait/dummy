@@ -1,0 +1,104 @@
+
+// custom fonts
+
+@font-face {
+	font-family: 'delivery-black-cn';
+	src: url('./assets/fonts/Delivery_W_CdBlk.eot');
+	src: url('./assets/fonts/Delivery_W_CdBlk.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/Delivery_W_CdBlk.woff2') format('woff2'), url('./assets/fonts/Delivery_W_CdBlk.woff') format('woff'),  url('./assets/fonts/Delivery_W_CdBlk.svg#Delivery_W_CdBlk') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'delivery-light-cn';
+	src: url('./assets/fonts/Delivery_W_CdLt.eot');
+	src: url('./assets/fonts/Delivery_W_CdLt.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/Delivery_W_CdLt.woff2') format('woff2'), url('./assets/fonts/Delivery_W_CdLt.woff') format('woff'), url('./assets/fonts/Delivery_W_CdLt.svg#Delivery_W_CdLt') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'delivery-regular';
+	src: url('./assets/fonts/Delivery_W_Rg.eot');
+	src: url('./assets/fonts/Delivery_W_Rg.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/Delivery_W_Rg.woff2') format('woff2'), url('./assets/fonts/Delivery_W_Rg.woff') format('woff'), url('./assets/fonts/Delivery_Rg.ttf') format('truetype'), url('./assets/fonts/Delivery_W_Rg.svg#Delivery_W_Rg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'delivery-bold';
+	src: url('./assets/fonts/Delivery_W_Bd.eot');
+	src: url('./assets/fonts/Delivery_W_Bd.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/Delivery_W_Bd.woff2') format('woff2'), url('./assets/fonts/Delivery_W_Bd.woff') format('woff'), url('./assets/fonts/Delivery_Bd.ttf') format('truetype'), url('./assets/fonts/Delivery_W_Bd.svg#Delivery_W_Bd') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'delivery-light';
+	src: url('./assets/fonts/Delivery_W_Lt.eot');
+	src: url('./assets/fonts/Delivery_W_Lt.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/Delivery_W_Lt.woff2') format('woff2'), url('./assets/fonts/Delivery_W_Lt.woff') format('woff'), url('./assets/fonts/Delivery_Lt.ttf') format('truetype'), url('./assets/fonts/Delivery_W_Lt.svg#Delivery_W_Lt') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #F5F5F5;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color:  #fc0;
+}
+
+
+html {
+  font-size: 10px;
+  font-family: delivery-regular;
+    .app-header {
+        display: flex;
+        height: 8vh;
+        background: linear-gradient(90deg,#fc0 0,#fc0 30%,#ffe57f 79%,#fff0b2)!important;
+        align-items: center;
+        .left {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            font-family: delivery-black-cn;
+            font-size: 2rem;
+            color: #D40612;
+            flex: 1;
+            .logo {
+                display: flex;
+                align-items: center;
+                width: 128px;
+                margin: 0 5rem 0 3rem;
+            }
+        }
+        .right {
+            margin-right: 3rem;
+            font-family: delivery-bold;
+            font-size: 1.1rem;
+            .sbc-row {
+                text-align: right;
+            }
+        }
+    }
+}
+
+.mr-15 {
+    margin-right: .5rem;
+}
+
+.ml-5 {
+    margin-left: .5rem;
+}

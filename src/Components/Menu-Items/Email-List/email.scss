@@ -1,0 +1,57 @@
+@import "~bootstrap/scss/bootstrap";
+
+.emailFooter-container {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    height: 100%;
+    background: #D6D6D6;
+
+  .emailKeycontents {
+    color: #000000;
+    font-weight: normal;
+    padding: 0.5em 1em;
+    background-color: #D6D6D6;
+    min-height: 1.2em;
+  }
+
+  .emailFooter {
+    height: 5rem;
+    background-color: #D6D6D6;
+    color: #000000;
+}
+}
+
+
+// re-usable style 
+.EmailContent {
+    display: flex;
+    .emailGrid {
+        width: 80%;
+        float: left;
+    }
+    .EmailSlider-right {
+        padding: 1rem;
+        float: left;
+        width: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.remove {
+  border: 0;
+  background-color: white;
+  text-align: right;
+  font-weight: 700;
+  flex: 0 0 20px;
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+
+
+
